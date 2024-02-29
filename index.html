@@ -11,10 +11,25 @@
 <body>
     <div class="wrapper">
         <form action="">
-            <label for="username">Login:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="pwd">Senha:</label><br>
-            <input type="password" id="pwd" name="pwd">
+            
+            <h1>Login   </h1>
+            
+            <div class="input-box">
+                <input type="text" placeholder="Username" id="username" name="username" required><br>
+            </div>
+            
+            <div class="input-box">
+                <br><input type="password" placeholder="Password" id="pwd" name="pwd" required><br>
+            </div>
+            
+            <div class="remember-forgot">
+                <label>
+                    <br><input type="checkbox">
+                    Remember me
+                </label>
+                <a href="#">Forgot Password</a>
+            </div>
+        
         </form>
     </div>
 </body>
